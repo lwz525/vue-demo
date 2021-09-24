@@ -5,6 +5,7 @@ import Demo1 from '@/views/Demo1'
 import Demo2 from '@/views/Demo2'
 import Demo3 from '@/views/Demo3'
 import Demo4 from '@/views/Demo4'
+import Demo5 from '@/views/Demo5'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/demo4',
       name: 'demo4',
       component: Demo4
+    },
+    {
+      path: '/demo5',
+      name: 'demo5',
+      component: Demo5
     }
   ]
 })
